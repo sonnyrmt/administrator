@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+h1 {
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #f2f3f4;
+    width: 600px;
+    min-height: 200px;
+    height: auto;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.input-gasto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input {
+    border: solid 1px #b1b1b1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 3px 5px;
+}
+
+.title-label{
+    background-color:#356afd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 0 5px;
+    margin-bottom: 5px;
+    width: auto;
+    color: white;
+}
+
+
+.input-cantidad {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-lista-output {
+    margin: 10px 35;
+}
+
+
+.output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    color: white;
+    margin-top: 5px;
+}
+
+.send {
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: solid 1px #b1b1b1;
+    cursor: pointer;
+}
+
+#presupuesto,#restante {
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+#presupuesto{
+    background-color: #356afd;
+}
+
+#restante{
+    background-color: #00800085;
+}
+
+#lista {
+    margin-top: 15px;
+}
+
+    
+.container-g-c {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px #b1b1b1;
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+
+.container-g-c button {
+    background-color: rgb(253, 60, 60);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.cantidad {
+    background-color: #356afd;
+    color: white;
+    border-radius: 5px;
+    min-width: 30px;
+    width: auto;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.container-g-c p {
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        width: auto;
+        flex-direction: column;
+    }
+}
